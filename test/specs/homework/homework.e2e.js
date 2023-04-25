@@ -2,7 +2,13 @@ describe('Homework', async () => {
 
     it('should open page and create screenshot', async () => {
 
-        // sem vypracuj domácí úkol
+       // await browser.reloadSession();
+
+        await browser.url('https://team8-2022brno.herokuapp.com/registrace');
+
+        //await browser.pause(5000);
+
+        await browser.saveScreenshot('./screenShot.png');
 
     });
 
