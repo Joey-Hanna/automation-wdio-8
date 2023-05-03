@@ -7,8 +7,8 @@ describe('Homework', async () => {
         await browser.url('https://team8-2022brno.herokuapp.com/registrace');
 
         //await browser.pause(5000);
-
-        await browser.saveScreenshot('./screenShot.png');
+        
+        await browser.saveScreenshot('screenshot.png');
 
     });
 
